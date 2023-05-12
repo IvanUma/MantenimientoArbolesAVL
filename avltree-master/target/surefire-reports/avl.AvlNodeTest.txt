@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: avl.AvlNodeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in avl.AvlNodeTest
+avl.AvlNodeTest.shouldSetHeight  Time elapsed: 0.099 s
+avl.AvlNodeTest.testHasLeft  Time elapsed: 0.006 s
+avl.AvlNodeTest.testHasRight  Time elapsed: 0.004 s

@@ -43,6 +43,11 @@ public class AvlTree<T> {
     this.comparator = comparator;
   }
 
+  public int getHeight(){
+    if(top == null) throw new NullPointerException();
+    return top.getHeight();
+  }
+
   public void insert(T item) {
     AvlNode<T> node = new AvlNode<T>(item);
     insertAvlNode(node);

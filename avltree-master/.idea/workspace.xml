@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/complex_pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avl/AvlTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/avl/AvlTree.class" afterDir="false" />
+    </list>
+    <list id="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" name="Changes by georg" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java">
+      <ranges>
+        <range start1="33" end1="34" start2="33" end2="34" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="36" end1="40" start2="36" end2="43" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="41" end1="43" start2="44" end2="46" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="44" end1="50" start2="47" end2="52" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="51" end1="52" start2="53" end2="54" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="53" end1="55" start2="55" end2="142" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="130" end1="131" start2="217" end2="218" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="139" end1="143" start2="226" end2="227" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="196" end1="285" start2="280" end2="281" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="286" end1="310" start2="282" end2="294" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="311" end1="317" start2="295" end2="296" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="318" end1="319" start2="297" end2="298" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="348" end1="353" start2="327" end2="328" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="354" end1="355" start2="329" end2="330" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="383" end1="384" start2="358" end2="359" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="394" end1="396" start2="369" end2="371" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="398" end1="400" start2="373" end2="375" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="406" end1="407" start2="381" end2="382" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="410" end1="412" start2="385" end2="389" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="414" end1="415" start2="391" end2="392" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="423" end1="425" start2="400" end2="442" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="426" end1="428" start2="443" end2="449" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="429" end1="431" start2="450" end2="450" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="432" end1="434" start2="451" end2="455" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="435" end1="437" start2="456" end2="458" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="438" end1="440" start2="459" end2="461" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="441" end1="443" start2="462" end2="468" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="444" end1="449" start2="469" end2="474" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="450" end1="455" start2="475" end2="477" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="456" end1="460" start2="478" end2="484" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="461" end1="465" start2="485" end2="491" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="466" end1="469" start2="492" end2="501" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="472" end1="476" start2="504" end2="506" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="493" end1="494" start2="523" end2="524" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="512" end1="513" start2="542" end2="543" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java">
+      <ranges>
+        <range start1="2" end1="5" start2="2" end2="2" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="6" end1="9" start2="3" end2="6" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="17" end1="19" start2="14" end2="16" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="22" end1="23" start2="19" end2="20" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="29" end1="30" start2="26" end2="27" changelist="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" />
+        <range start1="32" end1="33" start2="29" end2="30" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="37" end1="38" start2="34" end2="35" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="40" end1="41" start2="37" end2="38" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+        <range start1="47" end1="48" start2="44" end2="45" changelist="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PgoxBcAmvr1dpKfaEWk0tOJHKn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AvlTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AvlTreeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" name="Changes" comment="" />
+      <created>1683888334612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683888334612</updated>
+      <workItem from="1683888338528" duration="4116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
