@@ -228,126 +228,66 @@ public class AvlTreeTest {
             );
         }
 
-/*
-    @Test
-    @DisplayName("")
-    public void testHeightAndBalanceOfASimpleBalancedTree() {
-        AvlNode<Integer> topNode, leftNode, rightNode;
-        int expectedHeightTop, expectedBalanceTop, actualBalanceTop, actualHeightTop;
-        int expectedHeightLeft, expectedBalanceLeft, actualBalanceLeft, actualHeightLeft;
-        int expectedHeightRight, expectedBalanceRight, actualBalanceRight, actualHeight;
+        @Test
+        @DisplayName("Inserting two left elements should rebalance the tree")
+        public void insertingTwoLeftNodesAndRebalance() {
+            int expectedTopItem, expectedLeftItem, expectedRightItem;
+            int actualTopItem, actualLeftItem, actualRightItem;
+            String expectedTree = " | 3 | 2 | 7";
+            String actualTree;
 
-        avlTree.insert(7);
+            avlTree.insert(7);
 
-        topNode = avlTree.getTop();
+            avlTree.insert(2);
 
+            avlTree.insert(3);
 
-        expectedHeightTop = 0;
-        expectedBalanceTop = 0;
-        actualHeightTop = topNode.getHeight();
-        actualBalanceTop = avlTree.getBalance(topNode);
+            expectedTopItem = 3;
+            expectedRightItem = 7;
+            expectedLeftItem = 2;
 
-        assertEquals(expectedBalanceTop, actualBalanceTop);
-        assertEquals(expectedHeightTop, actualHeightTop);
+            actualTopItem = avlTree.getTop().getItem();
+            actualLeftItem = avlTree.getTop().getLeft().getItem();
+            actualRightItem = avlTree.getTop().getRight().getItem();
+            actualTree = avlTree.toString();
 
-        avlTree.insert(4);
-        topNode = avlTree.getTop();
-        leftNode = topNode.getLeft();
+            assertAll(
+                    () -> assertEquals(expectedTopItem, actualTopItem),
+                    () -> assertEquals(expectedLeftItem, actualLeftItem),
+                    () -> assertEquals(expectedRightItem, actualRightItem),
+                    () -> assertEquals(expectedTree, actualTree)
+            );
+        }
+        @Test
+        @DisplayName("Inserting two right elements should rebalance the tree")
+        public void insertingTwoRightNodesAndRebalance() {
+            int expectedTopItem, expectedLeftItem, expectedRightItem;
+            int actualTopItem, actualLeftItem, actualRightItem;
+            String expectedTree = " | 8 | 7 | 9";
+            String actualTree;
 
-        expectedHeightTop = 1;
-        expectedBalanceTop = -1;
-        actualHeightTop = topNode.getHeight();
-        actualBalanceTop = avlTree.getBalance(topNode);
+            avlTree.insert(7);
 
-        expectedBalanceLeft = 0;
-        expectedHeightLeft = 0;
-        actualHeightLeft = leftNode.getHeight();
-        actualBalanceLeft = avlTree.getBalance(leftNode);
+            avlTree.insert(9);
 
-        //Por terminar
+            avlTree.insert(8);
 
-        assertEquals(expectedHeightTop, actualHeightTop);
-        assertEquals(expectedBalanceTop, actualBalanceTop);
+            expectedTopItem = 8;
+            expectedRightItem = 9;
+            expectedLeftItem = 7;
 
-        avlTree.insert(9);
-        topNode = avlTree.getTop();
-        leftNode = topNode.getLeft();
-        rightNode = topNode.getRight();
+            actualTopItem = avlTree.getTop().getItem();
+            actualLeftItem = avlTree.getTop().getLeft().getItem();
+            actualRightItem = avlTree.getTop().getRight().getItem();
+            actualTree = avlTree.toString();
 
-        assertEquals("testHeightOfASimpleBalancedTree", 0, node3.getHeight());
-        assertEquals("testHeightOfASimpleBalancedTree", 1, node1.getHeight());
-        assertEquals("testHeightOfASimpleBalancedTree", 0, avlTree.getBalance(node1));
-        assertEquals("testHeightOfASimpleBalancedTree", 0, avlTree.getBalance(node3));
-
-        String tree = " | 7 | 4 | 9";
-        assertEquals("testHeightOfASimpleBalancedTree", tree, avlTree.toString());
-    }
-*/
-
-
-    /*
-    @Test
-    public void testInsertingLeftRightNodeAndRebalance() {
-        AvlNode<Integer> node1, node2, node3;
-
-        node1 = new AvlNode<Integer>(7);
-        avlTree.insertAvlNode(node1);
-
-        node2 = new AvlNode<Integer>(2);
-        avlTree.insertAvlNode(node2);
-
-        node3 = new AvlNode<Integer>(3);
-        avlTree.insertAvlNode(node3);
-
-        assertEquals("testInsertingLeftRightNodeAndRebalance", node3, avlTree.getTop());
-        assertEquals("testInsertingLeftRightNodeAndRebalance", node2, node3.getLeft());
-        assertEquals("testInsertingLeftRightNodeAndRebalance", node1, node3.getRight());
-
-        assertEquals("testInsertingLeftRightNodeAndRebalance", 1, avlTree.getTop().getHeight());
-        assertEquals("testInsertingLeftRightNodeAndRebalance", 0,
-                avlTree.getTop().getLeft().getHeight());
-        assertEquals("testInsertingLeftRightNodeAndRebalance", 0,
-                avlTree.getTop().getRight().getHeight());
-        assertEquals("testInsertingLeftRightNodeAndRebalance", -1, avlTree.height(node2.getLeft()));
-        assertEquals("testInsertingLeftRightNodeAndRebalance", -1, avlTree.height(node2.getRight()));
-        assertEquals("testInsertingLeftRightNodeAndRebalance", -1, avlTree.height(node1.getLeft()));
-        assertEquals("testInsertingLeftRightNodeAndRebalance", -1, avlTree.height(node1.getRight()));
-
-        String tree = " | 3 | 2 | 7";
-        assertEquals("testInsertingLeftRightNodeAndRebalance", tree, avlTree.toString());
-    }
-
-
-    @Test
-    public void testInsertingRightLeftNodeAndRebalance() {
-        AvlNode<Integer> node1, node2, node3;
-
-        node1 = new AvlNode<Integer>(7);
-        avlTree.insertAvlNode(node1);
-
-        node2 = new AvlNode<Integer>(9);
-        avlTree.insertAvlNode(node2);
-
-        node3 = new AvlNode<Integer>(8);
-        avlTree.insertAvlNode(node3);
-
-        assertEquals("testInsertingRightLeftNodeAndRebalance", node3, avlTree.getTop());
-        assertEquals("testInsertingRightLeftNodeAndRebalance", node1, node3.getLeft());
-        assertEquals("testInsertingRightLeftNodeAndRebalance", node2, node3.getRight());
-
-        assertEquals("testInsertingRightLeftNodeAndRebalance", 1, avlTree.getTop().getHeight());
-        assertEquals("testInsertingRightLeftNodeAndRebalance", 0,
-                avlTree.getTop().getLeft().getHeight());
-        assertEquals("testInsertingRightLeftNodeAndRebalance", 0,
-                avlTree.getTop().getRight().getHeight());
-        assertEquals("testInsertingRightLeftNodeAndRebalance", -1, avlTree.height(node2.getLeft()));
-        assertEquals("testInsertingRightLeftNodeAndRebalance", -1, avlTree.height(node2.getRight()));
-        assertEquals("testInsertingRightLeftNodeAndRebalance", -1, avlTree.height(node1.getLeft()));
-        assertEquals("testInsertingRightLeftNodeAndRebalance", -1, avlTree.height(node1.getRight()));
-
-        String tree = " | 8 | 7 | 9";
-        assertEquals("testInsertingRightLeftNodeAndRebalance", tree, avlTree.toString());
-    }*/
+            assertAll(
+                    () -> assertEquals(expectedTopItem, actualTopItem),
+                    () -> assertEquals(expectedLeftItem, actualLeftItem),
+                    () -> assertEquals(expectedRightItem, actualRightItem),
+                    () -> assertEquals(expectedTree, actualTree)
+            );
+        }
     }
 
     @Nested
@@ -430,7 +370,7 @@ public class AvlTreeTest {
 
         @Test
         @DisplayName("Deleting left leaf node")
-        public void deletingLeafLeafNode(){
+        public void deletingLeftLeafNode(){
             avlTree.delete(2);
 
             int expectedHeight = 1;

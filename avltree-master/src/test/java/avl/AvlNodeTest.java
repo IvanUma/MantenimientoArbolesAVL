@@ -23,25 +23,28 @@ public class AvlNodeTest {
   }
 
   @Test
-  public void testHasLeft() {
-    assertFalse(node.hasLeft());
-    AvlNode<Integer> node2 = new AvlNode<Integer>(6);
+  @DisplayName("node with left node has left")
+  public void hasLeft() {
+    AvlNode<Integer> node2 = new AvlNode<Integer>(4);
     node.setLeft(node2);
-    assertTrue(node.hasLeft(), "testHasLeft");
+    assertTrue(node.hasLeft());
   }
 
   @Test
-  public void testHasRight() {
-    assertFalse(node.hasRight(), "testHasRight");
+  @DisplayName("node with right node has right")
+  public void hasRight() {
     AvlNode<Integer> node2 = new AvlNode<Integer>(6);
     node.setRight(node2);
-    assertTrue(node.hasRight(), "testHasRight");
+    assertTrue(node.hasRight());
   }
 
   @Test
+  @DisplayName("using setHeight should change he height")
   public void shouldSetHeight() {
     int expectedHeight = 1000213;
     node.setHeight(expectedHeight);
-    assertEquals(expectedHeight, node.getHeight());
+    int actualHeight = node.getHeight();
+
+    assertEquals(expectedHeight, actualHeight);
   }
 }

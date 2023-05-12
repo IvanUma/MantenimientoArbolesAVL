@@ -5,35 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0dd62b6-0ab0-4b88-86a7-ddb378b08f78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$insertingLeafNodes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$searchingLeafNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avl/AvlTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/avl/AvlTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$deleteLeafNodes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$deleteLeafNodes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$heightAndBalance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$heightAndBalance.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$isEmpty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$isEmpty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$testWith5ElementsTree.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$testWith5ElementsTree.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$testWith8ElementsTree.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest$testWith8ElementsTree.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$deleteLeafNodes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$deleteLeafNodes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$heightAndBalance.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$heightAndBalance.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$isEmpty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$isEmpty.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$testWith5ElementsTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$testWith5ElementsTree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$testWith8ElementsTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest$testWith8ElementsTree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlNodeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$deleteLeafNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$deleteLeafNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$insertingLeafNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$insertingLeafNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$searchingLeafNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$searchingLeafNodes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$testWith5ElementsTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$testWith5ElementsTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$testWith8ElementsTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest$testWith8ElementsTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreeTest.class" afterDir="false" />
     </list>
     <list id="d6673b53-25dc-46f7-8ab8-0a3fcc2a9f40" name="Changes by georg" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,24 +44,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Marina/Desktop/Universidad/Tercero de Carrera/Mantenimiento y Pruebas del Software/MantenimientoAVL/MantenimientoArbolesAVL/avltree-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marina/Desktop/Universidad/Tercero de Carrera/Mantenimiento y Pruebas del Software/MantenimientoAVL/MantenimientoArbolesAVL/avltree-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.AvlTreeTest">
+    <configuration name="AvlNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AvlTreeTest$deleteLeafNodes.deletingCompleteTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
@@ -109,22 +104,6 @@
       <option name="PACKAGE_NAME" value="avl.AvlTreeTest" />
       <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTest$deleteLeafNodes" />
       <option name="METHOD_NAME" value="deletingRightLeafNode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreeTest$testWith5ElementsTree.testDeletingNodesWithOneLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreeTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTest$testWith5ElementsTree" />
-      <option name="METHOD_NAME" value="testDeletingNodesWithOneLeaf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AvlTreeTest" />
+        <item itemvalue="JUnit.AvlNodeTest" />
         <item itemvalue="JUnit.AvlTreeTest$testWith8ElementsTree.deletingNodesWithTwoLeaves" />
         <item itemvalue="JUnit.AvlTreeTest$deleteLeafNodes.deletingRightLeafNode" />
         <item itemvalue="JUnit.AvlTreeTest$deleteLeafNodes.deletingCompleteTree" />
-        <item itemvalue="JUnit.AvlTreeTest$testWith5ElementsTree.testDeletingNodesWithOneLeaf" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683888334612</updated>
       <workItem from="1683888338528" duration="4116000" />
-      <workItem from="1683899261499" duration="6120000" />
+      <workItem from="1683899261499" duration="7082000" />
+      <workItem from="1683906426473" duration="158000" />
     </task>
     <servers />
   </component>
@@ -188,7 +168,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/avltree_master$AvlTreeTest.ic" NAME="AvlTreeTest Coverage Results" MODIFIED="1683904828252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/avltree_master$AvlNodeTest.ic" NAME="AvlNodeTest Coverage Results" MODIFIED="1683905723443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>avl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/avltree_master$AvlTreeTest.ic" NAME="AvlTreeTest Coverage Results" MODIFIED="1683906255568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>avl.*</FILTER>
     </SUITE>
   </component>
