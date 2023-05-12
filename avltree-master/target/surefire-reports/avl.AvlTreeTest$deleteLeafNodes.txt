@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: avl.AvlTreeTest$deleteLeafNodes
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in avl.AvlTreeTest$deleteLeafNodes
-avl.AvlTreeTest$deleteLeafNodes.deletingLeafLeafNode  Time elapsed: 0.006 s
-avl.AvlTreeTest$deleteLeafNodes.deletingCompleteTree  Time elapsed: 0.006 s
-avl.AvlTreeTest$deleteLeafNodes.deletingRightLeafNode  Time elapsed: 0.006 s
-avl.AvlTreeTest$deleteLeafNodes.deletingBothLeafNodes  Time elapsed: 0.007 s

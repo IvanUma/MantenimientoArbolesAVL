@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: avl.AvlTreeTest$heightAndBalance
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in avl.AvlTreeTest$heightAndBalance
-avl.AvlTreeTest$heightAndBalance.heightOneAfterInsertingLeft  Time elapsed: 0.006 s
-avl.AvlTreeTest$heightAndBalance.heihtOneAfterInsertingRight  Time elapsed: 0.004 s
-avl.AvlTreeTest$heightAndBalance.heightOneAndBalanceZeroAfterInsertingBothSides  Time elapsed: 0.004 s
-avl.AvlTreeTest$heightAndBalance.emptyTreeHeightIsZero  Time elapsed: 0.003 s

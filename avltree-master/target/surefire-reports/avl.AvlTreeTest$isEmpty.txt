@@ -1,6 +1,0 @@
--------------------------------------------------------------------------------
-Test set: avl.AvlTreeTest$isEmpty
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in avl.AvlTreeTest$isEmpty
-avl.AvlTreeTest$isEmpty.testInsertTop  Time elapsed: 0.002 s
-avl.AvlTreeTest$isEmpty.avlTreeIsNotEmptyAfterInsert  Time elapsed: 0.004 s
