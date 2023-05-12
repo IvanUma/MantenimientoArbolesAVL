@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: avl.AvlTreeTest$searchingLeafNodes
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in avl.AvlTreeTest$searchingLeafNodes
+avl.AvlTreeTest$searchingLeafNodes.searchTopNodeOnOneElementTreeReturnsThatElement  Time elapsed: 0.003 s
+avl.AvlTreeTest$searchingLeafNodes.searchLeftNode  Time elapsed: 0.002 s
+avl.AvlTreeTest$searchingLeafNodes.searchRightNode  Time elapsed: 0.003 s
+avl.AvlTreeTest$searchingLeafNodes.searchOnEmptyTree  Time elapsed: 0.001 s
